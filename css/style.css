@@ -1,24 +1,12 @@
-h1 {
-  color: blue;
-  font-size: 20px;
-  text-align: center;
-}
-/* типу */
-#topNews {
-  color: red;
-}
-
-/* класу */
-.abstract {
-  color: grey;
-}
-
-/* id */
-h2 {
+body {
   color: green;
+  border: 1px solid red;
 }
 
-/* Перше і останнє посилання зробити 10px (селектор класу)*/
-.testLink {
-  font-size: 10px;
+a {
+  color: inherit;
+}
+
+h2 {
+  color: initial;
 }
