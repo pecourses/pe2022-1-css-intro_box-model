@@ -6,7 +6,7 @@ body {
   margin: 0px;
 }
 
-.menuItens {
+.menuItems {
   list-style: none;
   padding: 0;
   text-align: center;
@@ -46,6 +46,19 @@ p {
   font-size: 14px;
 } */
 
-article {
+.newsItem,
+.roolsItem {
   font-size: initial;
+}
+
+.rools {
+  background-color: bisque;
+}
+
+/* Лайфхак для домашки 2 */
+.roolsItem {
+  width: 1200px; /* обмежити ширину блока */
+  margin: 0 auto; /* розташувати цей блок посередині, встановив збоків автоматичні (тут однакові) марджини */
+  text-align: center;
+  padding: 15px;
 }
