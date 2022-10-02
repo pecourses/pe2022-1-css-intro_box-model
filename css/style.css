@@ -1,0 +1,36 @@
+/* правила  */
+/* селектор {
+  властивість: значення;
+  властивість: значення;
+  властивість: значення;
+  властивість: значення;
+} */
+
+h2 {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Застиліти текст из h1 и 5 p:
+h1: blue 20px по центру
+p: yellow 14px вирівнювання по правій стороні */
+
+h1 {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color: yellow;
+  font-size: 14px;
+  text-align: right;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  /* object-fit: cover; */
+}
