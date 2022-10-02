@@ -1,12 +1,24 @@
-body {
-  color: green;
-  border: 1px solid red;
+p {
+  /* Короткий запис: */
+  /* text-decoration: overline dashed red 2px; */
+  /* Розгорнутий запис: */
+  text-decoration-color: red;
+  text-decoration-line: overline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 2px;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
-h2 {
-  color: initial;
+body {
+  min-height: 100vh;
+  /* background-color: aquamarine; */
+  background: url(https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  /* background-position: center; */
 }
